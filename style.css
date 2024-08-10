@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: burlywood;
+}
+
+header ul {
+    display: flex;
+    list-style: none;
+}
+
+header ul li {
+    margin: 0 15px;
+}
+
+header ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+header .sign-in {
+    background-color: #4a4a4a;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 0 50px;
+}
+
+.welcome h1 {
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #333;
+    border-radius: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.search-box input {
+    border: none;
+    background: none;
+    color: #fff;
+    padding: 10px;
+    outline: none;
+}
+
+.search-box button {
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.buttons {
+    display: flex;
+    gap: 20px;
+}
+
+.buttons .Search,
+.buttons .see-more {
+    padding: 15px 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+}
+.landing {
+    background-image: url('image.jpeg');
+    background-size: cover;  
+    background-position: center; 
+    color: #fff; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    padding: 0 50px;
+}
+
+.buttons .Search {
+    background-color: #00aaff;
+    color: #fff;
+}
+
+.buttons .see-more {
+    background-color: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.landing-page-info {
+    max-width: 450px;
+    text-align: right;
+}
+
+.landing-page-info h2 {
+    font-size: 40px;
+    margin-bottom: 20px;
+    text-align: right;
+}
+
+.landing-page-info p {
+    color: #aaa;
+    line-height: 1.5;
+}
+h2{
+    color: palevioletred;
+}
+.landing-page-info p.textedit {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    line-height: 1.2;
+}   
